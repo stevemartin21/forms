@@ -1,0 +1,145 @@
+
+<!--
+<mat-card>
+
+  <form (submit)="onLogin(loginForm)" #loginForm="ngForm" *ngIf="!isLoading">
+    <mat-form-field>
+      <input matInput name="email" ngModel type="email" placeholder="E-Mail" #emailInput="ngModel" required email>
+      <mat-error *ngIf="emailInput.invalid">Please enter a valid email.</mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <input type="password" name="password" ngModel matInput placeholder="Password" #passwordInput="ngModel" required>
+      <mat-error *ngIf="passwordInput.invalid">Please enter a valid password.</mat-error>
+    </mat-form-field>
+    <button mat-raised-button color="accent" type="submit" *ngIf="!isLoading">Login</button>
+  </form>
+</mat-card>
+-->
+
+
+
+<app-navigation></app-navigation>
+
+<!--Main Navigation-->
+<header class="intro-header">
+
+
+  <!--Intro Section-->
+  <section class="view intro-2">
+      <div class="full-bg-img mask rgba-stylish-strong">
+          <div class="container flex-center pt-5">
+              <div class="d-flex align-items-center w-100">
+                  <div class="row flex-center pt-5 mt-3 w-100">
+                      <div class="col-md-6 text-center text-md-left mb-5">
+
+                          <div class="white-text">
+                              <h2 class="h1 display-4 wow fadeInLeft" data-wow-delay="0.3s">Lorem ipsum</h2>
+                              <hr class="hr-light wow fadeInLeft" data-wow-delay="0.3s">
+                              <h6 class="wow fadeInLeft" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem repellendus quasi fuga nesciunt dolorum nulla magnam veniam sapiente, fugiat! Commodi sequi non animi ea dolor molestiae, quisquam iste.</h6>
+                              <br>
+                              <a class="btn elegant-color wow fadeInLeft waves-light" data-wow-delay="0.3s" mdbWavesEffect>Learn more</a>
+                          </div>
+                      </div>
+
+                      <div class="col-md-6 col-xl-5 offset-xl-1">
+                          <!--Form-->
+                          <form (submit)="onLogin(loginForm)" #loginForm="ngForm" *ngIf="!isLoading">
+                          <div class="card wow fadeInRight" data-wow-delay="0.3s">
+                              <div class="card-body z-depth-2">
+                                  <!--Header-->
+                                  <div class="text-center">
+                                      <h3>Log In</h3>
+                                      <hr>
+                                  </div>
+
+                                  <!--Body-->
+                                  <div class="md-form">
+                                      <i class="fa fa-user prefix grey-text"></i>
+                                      <input type="text" id="form3" class="form-control"  name="email" ngModel #emailInput="ngModel">
+                                      <label for="form3">Your Email</label>
+                                  </div>
+                                  <div class="md-form">
+                                      <i class="fa fa-envelope prefix grey-text"></i>
+                                      <input type="text" id="form2" class="form-control"name="password" ngModel #passwordInput="ngModel" >
+                                      <label for="form2">Your Password</label>
+                                  </div>
+
+
+
+                                  <div class="text-center">
+                                      <button class="btn elegant-color waves-light" mdbWavesEffect>Submit</button>
+                                      <hr>
+
+                                  </div>
+
+                              </div>
+                          </div>
+                          </form>
+                          <!--/.Form-->
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+</header>
+
+<app-footer></app-footer>
+<!--Main Navigation-->
+
+<!--
+
+<header>
+	<section class="view intro intro-2 ">
+	  <div class="full-bg-img rgba-stylish-strong mask flex-center">
+	    <div class="container">
+	      <div class="row">
+	        <div class="col-xl-5 col-lg-6 col-md-10 col-sm-12 mx-auto mt-lg-5">
+            <form (submit)="onLogin(loginForm)" #loginForm="ngForm" *ngIf="!isLoading">
+
+	          <div class="card wow fadeIn" data-wow-delay="0.3s" style="animation-name: none; visibility: visible;">
+	            <div class="card-body">
+
+
+	              <div class="form-header elegant-color">
+	                <h3><i class="fa fa-user mt-2 mb-2"></i> Log in:</h3>
+                </div>
+
+
+
+	              <div class="md-form">
+	                <i class="fa fa-envelope prefix white-text"></i>
+	                <input type="text" id="orangeForm-email" class="form-control" name="email" ngModel #emailInput="ngModel">
+	                <label for="orangeForm-email" class="">Your email</label>
+	              </div>
+
+	              <div class="md-form">
+	                <i class="fa fa-lock prefix white-text"></i>
+	                <input type="password" id="orangeForm-pass" class="form-control" name="password" ngModel #passwordInput="ngModel"  mdbInputDirective>
+	                <label for="orangeForm-pass" class="">Your password</label>
+	              </div>
+
+	              <div class="text-center">
+	                <button class="btn elegant-color btn-lg waves-effect waves-light" mdbWavesEffect>Log In</button>
+	                <hr>
+	                <div class="inline-ul text-center d-flex justify-content-center">
+	                  <a class="icons-sm tw-ic px-2"><i class="fa fa-twitter white-text"></i></a>
+	                  <a class="icons-sm li-ic px-2"><i class="fa fa-linkedin white-text"> </i></a>
+	                  <a class="icons-sm ins-ic px-2"><i class="fa fa-instagram white-text"> </i></a>
+	                </div>
+	              </div>
+
+	            </div>
+	          </div>
+
+          </form>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</section>
+</header>
+
+
+-->
